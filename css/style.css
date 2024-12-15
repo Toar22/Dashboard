@@ -1,0 +1,176 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 18px; /* Bedre skriftstørrelse for lesbarhet */
+    overflow-x: hidden; /* Forhindrer horisontal rulling */
+}
+
+/* Navigation Bar */
+.dark-nav {
+    background-color: #111;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.dark-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #4CAF50;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+/* CTA Button */
+.cta-btn {
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+    background-color: #e08900;
+}
+
+/* Features Section */
+.features-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card, .order-card, .package-item {
+    background: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Juster knappene til å være på linje */
+.order-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-btn {
+    margin-top: auto; /* Sørg for at knappen flytter seg nederst */
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+    background-color: #e08900;
+}
+
+
+
+/* Handlekurv styling */
+#cart-container {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#cart-items li img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#cart-summary p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+
+
+
+.feature-card:hover, .order-card:hover, .package-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #111;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Dashboard Preview */
+.dashboard-preview-container {
+    text-align: center;
+    max-width: 100%;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.dashboard-preview-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive Font Sizes */
+h1, h2, h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p, li {
+    font-size: 1.25rem;
+}
+
+/* Prevent Horizontal Overflow */
+img, .dashboard-preview, .feature-card, .order-card, .package-item {
+    max-width: 100%;
+    height: auto;
+}
+

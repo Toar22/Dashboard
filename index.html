@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diskshow - Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body class="h-full">
+    <div class="min-h-full">
+        <!-- Navigation -->
+        <nav class="bg-gray-800">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="flex h-16 items-center justify-between">
+                    <div class="flex items-center">
+                        <div class="shrink-0">
+                            <img class="h-8 w-auto" src="static/img/logo.webp" alt="Diskshow Logo">
+                        </div>
+                        <div class="hidden md:block">
+                            <div class="ml-10 flex items-baseline space-x-4">
+                                <a href="#" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">Home</a>
+                                <a href="#features" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Features</a>
+                                <a href="#dashboard-preview" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Dashboard Preview</a>
+                                <a href="#package" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Package</a>
+                                <a href="#cart" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Handlekurv</a>
+                                <a href="#contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="bg-white shadow">
+            <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900">Diskshow: En familiefavoritt</h1>
+                <p>Endelig en løsning som gjør familiebildene nyttige! Fungerer uten skylagring, takket være en ekstern harddisk.</p>
+            </div>
+        </header>
+
+        <!-- Features Section -->
+        <main>
+            <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+                <section id="features" class="features-section">
+                    <h2 class="text-2xl font-bold text-gray-900">Key Features</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+                        <div class="feature-card bg-gray-100 p-6 rounded-lg shadow-md hover:bg-indigo-100 transition duration-300">
+                            <h3 class="font-semibold text-lg text-gray-900">Ingen skylagring</h3>
+                            <p class="mt-2">Lagre familiebildene dine trygt på en ekstern harddisk og vis dem på et interaktivt dashboard.</p>
+                        </div>
+                        <div class="feature-card bg-gray-100 p-6 rounded-lg shadow-md hover:bg-indigo-100 transition duration-300">
+                            <h3 class="font-semibold text-lg text-gray-900">Familievennlig</h3>
+                            <p class="mt-2">Barna kan enkelt sjekke hva som skjer i deres dag, som treninger og aktiviteter.</p>
+                        </div>
+                        <div class="feature-card bg-gray-100 p-6 rounded-lg shadow-md hover:bg-indigo-100 transition duration-300">
+                            <h3 class="font-semibold text-lg text-gray-900">Smart bildevisning</h3>
+                            <p class="mt-2">Se minner med detaljer som når og hvor bildet ble tatt.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Package Section -->
+                <section id="package" class="features-section mt-12">
+                    <h2 class="text-2xl font-bold text-gray-900">Hva inneholder pakken?</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                        <div class="package-item bg-gray-100 p-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
+                            <img src="static/img/screen.jpg" alt="Skjerm" class="w-full rounded-md">
+                            <h3 class="font-semibold text-lg mt-4 text-gray-900">Skjerm (24"-32")</h3>
+                            <p class="mt-2">En optimal skjermstørrelse for hjemmet ditt.</p>
+                        </div>
+                        <div class="package-item bg-gray-100 p-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
+                            <img src="static/img/raspberry.webp" alt="Raspberry Pi" class="w-full rounded-md">
+                            <h3 class="font-semibold text-lg mt-4 text-gray-900">Raspberry Pi</h3>
+                            <p class="mt-2">Kraftig maskinvare med ferdiginstallert Diskshow-programvare.</p>
+                        </div>
+                        <div class="package-item bg-gray-100 p-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
+                            <img src="static/img/harddrive.webp" alt="Ekstern harddisk" class="w-full rounded-md">
+                            <h3 class="font-semibold text-lg mt-4 text-gray-900">Ekstern harddisk</h3>
+                            <p class="mt-2">Lagre og nyt bildene dine uten behov for skylagring.</p>
+                        </div>
+                        <div class="package-item bg-gray-100 p-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
+                            <img src="static/img/software.webp" alt="Diskshow Software" class="w-full rounded-md">
+                            <h3 class="font-semibold text-lg mt-4 text-gray-900">Diskshow Software</h3>
+                            <p class="mt-2">Den unike programvaren som gjør alt mulig.</p>
+                        </div>
+                    </div>
+                </section>
+
+                
+<!-- Dashboard Preview Section -->
+<section id="dashboard-preview" class="features-section mt-12">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 text-center mb-6">Dashboard Preview</h2>
+        <p class="text-center text-gray-700 mb-8">Se hvordan Dashboardet ser ut i praksis.</p>
+
+        <div class="dashboard-preview-container bg-gray-100 p-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
+            <img src="static/img/dashboard-example.png" alt="Dashboard Preview" class="w-full h-auto rounded-md">
+        </div>
+    </div>
+</section>
+
+
+
+
+                <section id="order" class="features-section mt-12 bg-gray-100 py-12">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <h2 class="text-3xl font-bold text-gray-900 text-center mb-6">Bestillingsside</h2>
+                        <p class="text-center text-gray-700 mb-8">Velg komponenter og bygg din egen Diskshow-løsning!</p>
+                
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <!-- Skjerm -->
+                            <div class="order-card bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition duration-300">
+                                <img src="static/img/screen.jpg" alt="Skjerm" class="w-full h-32 object-cover rounded-md">
+                                <h3 class="text-lg font-semibold mt-4 text-gray-900">Skjerm (24"-32")</h3>
+                                <p class="mt-2 text-gray-600">Optimal størrelse for hjemmet ditt.</p>
+                                <p class="mt-4 text-lg font-bold text-gray-900">1 000,- NOK</p>
+                                <button class="cta-btn mt-4 w-full py-2">Legg til i kurv</button>
+                            </div>
+                
+                            <!-- Raspberry Pi -->
+                            <div class="order-card bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition duration-300">
+                                <img src="static/img/raspberry.webp" alt="Raspberry Pi" class="w-full h-32 object-cover rounded-md">
+                                <h3 class="text-lg font-semibold mt-4 text-gray-900">Raspberry Pi</h3>
+                                <p class="mt-2 text-gray-600">Kraftig maskinvare for å kjøre Diskshow.</p>
+                                <p class="mt-4 text-lg font-bold text-gray-900">1 500,- NOK</p>
+                                <button class="cta-btn mt-4 w-full py-2">Legg til i kurv</button>
+                            </div>
+                
+                            <!-- Ekstern lagring -->
+                            <div class="order-card bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition duration-300">
+                                <img src="static/img/harddrive.webp" alt="Ekstern lagring" class="w-full h-32 object-cover rounded-md">
+                                <h3 class="text-lg font-semibold mt-4 text-gray-900">Ekstern lagring</h3>
+                                <p class="mt-2 text-gray-600">Trygg lagring av bilder og data.</p>
+                                <p class="mt-4 text-lg font-bold text-gray-900">500,- NOK</p>
+                                <button class="cta-btn mt-4 w-full py-2">Legg til i kurv</button>
+                            </div>
+                
+                            <!-- Diskshow Software -->
+                            <div class="order-card bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition duration-300">
+                                <img src="static/img/software.webp" alt="Diskshow Software" class="w-full h-32 object-cover rounded-md">
+                                <h3 class="text-lg font-semibold mt-4 text-gray-900">Diskshow Software</h3>
+                                <p class="mt-2 text-gray-600">Den unike programvaren som driver hele systemet.</p>
+                                <p class="mt-4 text-lg font-bold text-gray-900">1 000,- NOK</p>
+                                <button class="cta-btn mt-4 w-full py-2">Legg til i kurv</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="cart" class="bg-gray-100 py-12">
+                    <div class="mx-auto max-w-4xl px-6 sm:px-8">
+                        <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Din Handlekurv</h2>
+                        <div id="cart-container" class="bg-white shadow-md rounded-lg p-6">
+                            <ul id="cart-items" class="divide-y divide-gray-200">
+                                <p class="text-gray-600 text-center">Handlekurven er tom.</p>
+                            </ul>
+                            <div id="cart-summary" class="mt-6 text-right hidden">
+                                <hr class="mb-4">
+                                <p class="text-lg font-semibold">Total: <span id="cart-total" class="text-2xl font-bold text-gray-800">0 NOK</span></p>
+                                <button class="mt-4 bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 transition">Gå til betaling</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="order-form" class="bg-gray-100 py-12">
+                    <div class="mx-auto max-w-4xl px-6 sm:px-8">
+                        <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Send Bestilling</h2>
+                        <form action="https://formspree.io/f/xdkorknr" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Navn</label>
+                                <input type="text" name="name" id="name" class="w-full px-4 py-2 border rounded-lg" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-medium mb-2">E-post</label>
+                                <input type="email" name="email" id="email" class="w-full px-4 py-2 border rounded-lg" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="order-details" class="block text-gray-700 font-medium mb-2">Bestillingsdetaljer</label>
+                                <textarea name="order-details" id="order-details" rows="5" class="w-full px-4 py-2 border rounded-lg" readonly></textarea>
+                            </div>
+                        <button type="submit" class="w-full bg-indigo-600 text-white font-bold py-3 rounded-lg hover:bg-indigo-700 transition">Send Bestilling</button>
+                        </form>
+                    </div>
+                </section>
+                
+                
+                
+
+                <section id="contact" class="bg-gray-100 py-12">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+                        <h2 class="text-3xl font-bold text-gray-900 mb-6">Kontakt oss</h2>
+                        <p class="text-gray-700 mb-4">Har du spørsmål? Ta kontakt!</p>
+                        <p class="text-gray-700">E-post: <a href="mailto:info@diskshow.com" class="text-indigo-500">info@diskshow.com</a></p>
+                    </div>
+                </section>
+                
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white">
+            <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 text-center">
+                <p>© 2025 Diskshow. All rights reserved.</p>
+                <p>Kontakt oss: <a href="mailto:info@diskshow.com" class="text-indigo-400">info@diskshow.com</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
